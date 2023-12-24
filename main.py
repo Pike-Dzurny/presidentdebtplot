@@ -3,8 +3,6 @@ import math
 import pandas as pd
 import matplotlib.pyplot as plt
 
-print(plt.style.available)
-
 def plot_data(csv_file, presidencies, start_date=None, end_date=None, window_size=5):
     # Load data
     data = pd.read_csv(csv_file, parse_dates=['DATE'])
