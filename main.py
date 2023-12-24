@@ -50,7 +50,7 @@ def plot_data(csv_file, presidencies, start_date=None, end_date=None, window_siz
     ax2.plot(data['DATE'], data['Smoothed_First_Derivative'], label='Smoothed First Derivative', color='red', linewidth=1)
     ax2.plot(data['DATE'], data['Smoothed_Second_Derivative'], label='Smoothed Second Derivative', color='green', linewidth=1)
 
-    ax2.set_ylabel('Smoothed Derivative of Log', color='darkgreen', fontsize=14, fontweight='bold')
+    ax2.set_ylabel('Smoothed Derivative', color='darkgreen', fontsize=14, fontweight='bold')
     ax2.tick_params(axis='y', labelcolor='darkgreen', labelsize=12)
 
     # Adding legends
