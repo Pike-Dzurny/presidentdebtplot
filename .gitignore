@@ -1,0 +1,3 @@
+# Ignore data and readme files
+data/
+.DS_Store
